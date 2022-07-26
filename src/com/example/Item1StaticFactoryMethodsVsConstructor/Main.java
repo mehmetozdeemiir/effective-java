@@ -6,6 +6,6 @@ public class Main {
 
         Product product=new Product("Leptop",16800L);
 
-        Product pb=Product.expensiveProduct("ütü");
+        Product pb=Product.expensiveProduct("ütü"); //static factory
     }
 }

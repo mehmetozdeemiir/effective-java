@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class DenemeSinifEqualAndHashCode {
 
-    private int a;
+    private int a ;
     private int b;
 
     public DenemeSinifEqualAndHashCode(int a, int b){
