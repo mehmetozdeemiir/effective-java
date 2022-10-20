@@ -24,10 +24,10 @@ public class main {
 
         DenemeSinif d = new DenemeSinif(1,2);
         DenemeSinif d2 = new DenemeSinif(1,2);
-        System.out.println(d==d2); //false  stack de ayrı sekilde referans tutulur
-        System.out.println(d.equals(d2));
+        System.out.println(d==d2); //false  stack de ayrı sekilde referans tutulur.
+        System.out.println(d.equals(d2)); //false
         System.out.println(d.hashCode());//different to d2 hashcode
-        System.out.println(d2.hashCode());
+        System.out.println(d2.hashCode());//different to d1 hashcode
 
         DenemeSinif deneme= new DenemeSinif(10,11);
         DenemeSinif deneme2= new DenemeSinif(10,11);
